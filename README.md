@@ -3,11 +3,8 @@ Hi there, I'm Eduardo Ferraz 👋
 🚀 About Me
 
 I'm a Web Developer
-Based in: Vitoria, Espírito Santo, Brazil
 
 🎓 Studying Computer Science at the Federal University of Espírito Santo (UFES).
-
-💬 Languages: Portuguese (Native) | English (Fluent) | German (Basic)
 
 💡 What I'm Currently Focused On
 
