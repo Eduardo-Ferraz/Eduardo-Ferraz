@@ -2,15 +2,12 @@ Hi there, I'm Eduardo Ferraz 👋
 
 🚀 About Me
 
-I'm a Web Developer and Computer Science student at UFES (Brazil) driven by a purpose: to change people's lives on a large scale through technology.
-
-I have a background in Electrical Engineering and a thirst for continuous learning, always seeking high-impact environments to grow and contribute. My experience spans from leading development teams to building secure, scalable full-stack applications. I am currently focused on microservice architectures, cloud-native solutions, and AI integration.
-
-🇧🇷 Based in: Vitoria, Espírito Santo, Brazil
+I'm a Web Developer
+Based in: Vitoria, Espírito Santo, Brazil
 
 🎓 Studying Computer Science at the Federal University of Espírito Santo (UFES).
 
-💬 Languages: Portuguese (Native) | English (Fluent - C1) | German (Basic)
+💬 Languages: Portuguese (Native) | English (Fluent) | German (Basic)
 
 💡 What I'm Currently Focused On
 
