@@ -1,8 +1,6 @@
 Hi there, I'm Eduardo Ferraz 👋
 
-🚀 About Me
-
-I'm a Web Developer
+🚀 I'm a Web Developer
 
 🎓 Studying Computer Science at the Federal University of Espírito Santo (UFES).
 
