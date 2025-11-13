@@ -15,9 +15,13 @@ I have a background in Electrical Engineering and a thirst for continuous learni
 💡 What I'm Currently Focused On
 
 My recent work involves solving complex problems in a fast-paced internship environment:
+
 Microservice Architecture: Actively contributing to the migration of a monolithic application to microservices, defining standards for MVC patterns and unit tests.
+
 AI Integration: Developing a new microservice for AI-powered essay evaluation using the Gemini and ChatGPT APIs.
+
 Cloud & DevOps: Building and managing serverless schedules and functions with AWS Lambda and EventBridge.
+
 Application Security: Hardening application security by identifying vulnerabilities (PenTests) and implementing robust countermeasures, including Rate-Limiting, CSP, reCAPTCHA v2/v3, and JWT Refresh Tokens.
 
 💻 My Tech Stack
