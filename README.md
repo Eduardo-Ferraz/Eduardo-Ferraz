@@ -2,7 +2,7 @@ Hi there, I'm Eduardo Ferraz 👋
 
 🚀 I'm a FullStack Web Developer
 
-🎓 Studying Computer Science at the Federal University of Espírito Santo (UFES).
+🎓 Computer Science at the Federal University of Espírito Santo (UFES).
 
 💡 What I'm Currently Focused On
 
