@@ -6,7 +6,7 @@ Hi there, I'm Eduardo Ferraz 👋
 
 💡 What I'm Currently Focused On
 
-My recent work involves solving complex problems in a fast-paced internship environment:
+My recent work involves:
 
 Microservice Architecture: Actively contributing to the migration of a monolithic application to microservices, defining standards for MVC patterns and unit tests.
 
