@@ -1,22 +1,35 @@
-Hi there, I'm Eduardo Ferraz 👋
+# Hi, I'm Eduardo Ferraz 👋
 
-🚀 I'm a FullStack Web Developer
+Full stack developer building with generative AI: LLMs in production, RAG and coding agents.
+Computer Science student at the Federal University of Espírito Santo (UFES), Brazil.
 
-🎓 Computer Science at the Federal University of Espírito Santo (UFES).
+## What I work on
 
-💡 What I'm Currently Focused On
+**LLMs in production.** At Gama Ensino, an education company, I build the AI features of the platform:
 
-My recent work involves:
+- an essay-grading microservice that evaluates student essays against the ENEM rubric with the Gemini and ChatGPT APIs;
+- question generation with a locally hosted Qwen model and RAG (Qdrant + BAAI/bge-m3 embeddings), with no per-call API cost.
 
-Microservice Architecture: Actively contributing to the migration of a monolithic application to microservices, defining standards for MVC patterns and unit tests.
+**Orchestrating coding agents.** I run Claude Code as a small team instead of a single assistant: one model plans the task
+and writes the guide, another model executes it, and a reviewer agent checks the result before anything is published.
 
-Application Security: Hardening application security by identifying vulnerabilities (PenTests) and implementing robust countermeasures, including Rate-Limiting, CSP, reCAPTCHA v2/v3, and JWT Refresh Tokens.
+**Automation with local LLMs.** Workflows in which the model runs next to the data, behind an OpenAI-compatible API
+(LM Studio, Ollama), with structured JSON output and a human fallback when the answer cannot be trusted.
 
-AI Integration: Developing a new microservice for AI-powered essay evaluation using the Gemini and ChatGPT APIs.
+**Full stack.** TypeScript, Node.js, React/Next.js, Java/Spring Boot and Python on PostgreSQL and AWS (Lambda, EventBridge),
+including a monolith-to-microservices migration and security hardening after penetration tests.
 
-Cloud & DevOps: Building and managing serverless schedules and functions with AWS Lambda and EventBridge.
+## Projects
 
-💻 My Tech Stack
+| Project | What it is | Stack |
+|---|---|---|
+| [fhir-llm-gateway](https://github.com/Eduardo-Ferraz/fhir-llm-gateway) | **Design phase.** Gateway that turns free-text clinical notes into validated HL7 FHIR R4 records with open-weight LLMs on local infrastructure, so health data never leaves the institution. Team of three, Computer Networks course. | WebSocket, Ollama, Qwen |
+| [happy-paws-go](https://github.com/Eduardo-Ferraz/happy-paws-go) | Clickable prototype of a dog-walking marketplace, generated with Lovable from Software Engineering requirements and refined by the team. **[Live demo](https://happypawss.lovable.app)** | React, Vite, TypeScript |
+| [pagerank-search-engine](https://github.com/Eduardo-Ferraz/pagerank-search-engine) | Mini search engine: inverted index on a symbol table, PageRank with the power method and ranked queries. Team project. | C |
+| [multithreaded-mini-kernel](https://github.com/Eduardo-Ferraz/multithreaded-mini-kernel) | Mini-kernel that schedules processes with pthreads: FCFS, Round Robin and preemptive priority, on one or two CPUs. Pair project. | C, pthreads |
+| [dishd](https://github.com/Eduardo-Ferraz/dishd) | Mobile-first social app to log, rate and share restaurant visits. Team of three, Integrated Project course. | Spring Boot, Next.js, PostgreSQL |
+
+## 💻 My Tech Stack
 
 <table>
   <tr>
@@ -45,3 +58,7 @@ Cloud & DevOps: Building and managing serverless schedules and functions with AW
     <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg" alt="Cypress" title="Cypress" /></td>
   </tr>
 </table>
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/eduardo-ferraz1)
