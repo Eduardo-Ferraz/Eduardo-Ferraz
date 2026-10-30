@@ -29,7 +29,6 @@ including a monolith-to-microservices migration and security hardening after pen
 | [happy-paws-go](https://github.com/Eduardo-Ferraz/happy-paws-go) | Clickable prototype of a dog-walking marketplace, generated with Lovable from Software Engineering requirements and refined by the team. **[Live demo](https://happypawss.lovable.app)** | React, Vite, TypeScript |
 | [pagerank-search-engine](https://github.com/Eduardo-Ferraz/pagerank-search-engine) | Mini search engine: inverted index on a symbol table, PageRank with the power method and ranked queries. Team project. | C |
 | [multithreaded-mini-kernel](https://github.com/Eduardo-Ferraz/multithreaded-mini-kernel) | Mini-kernel that schedules processes with pthreads: FCFS, Round Robin and preemptive priority, on one or two CPUs. Pair project. | C, pthreads |
-| [dishd](https://github.com/Eduardo-Ferraz/dishd) | Mobile-first social app to log, rate and share restaurant visits. Team of three, Integrated Project course. | Spring Boot, Next.js, PostgreSQL |
 
 ## 💻 My Tech Stack
 
