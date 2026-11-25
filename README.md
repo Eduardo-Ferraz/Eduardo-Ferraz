@@ -4,6 +4,20 @@
 Java, Node.js and Python.**
 Full stack engineer at Gama Ensino · Computer Science student at the Federal University of Espírito Santo (UFES), Brazil.
 
+## Impact so far
+
+| | |
+|---:|---|
+| **Thousands** | of students use the education platform I work on at Gama Ensino |
+| **7,900+** | commits in **73** company repositories since September 2024, 25 of them with 100+ (counted from git history) |
+| **12** | Java/Spring Boot microservices I have contributed to, with 10+ commits each |
+| **72%** | of the commits behind the essay-grading product: the AI service, the backend, the student app and the admin |
+| **2** | native student apps: Android (Kotlin, Jetpack Compose), published on Google Play in November 2026, and iOS (Swift, SwiftUI) |
+| **Hundreds** | of iFood delivery couriers covered by the engagement dashboards I built on Discola for the iFood partnership |
+| **~60%** | less query code after replacing hand-written queries with dynamic JPA Specification filters |
+| **0** | critical vulnerabilities left after penetration-test-driven security hardening |
+| **12** | developers led as Technology Director at CT Junior, a junior enterprise at UFES, with **100%** of deliveries on time |
+
 ## What I build
 
 **LLM features in production.** At Gama Ensino, an education company, I build the platform's AI features:
@@ -26,15 +40,13 @@ and writes the guide, another model executes it, and a reviewer agent checks the
 monolith-to-microservices migration, dynamic JPA Specification filters, and security hardening after penetration tests
 (rate limiting, CSP, reCAPTCHA, JWT refresh tokens).
 
-**Leadership.** As Technology Director of CT Junior, a junior enterprise at UFES, I led 12 developers with 100% of
-deliveries on time.
-
 ## Skills
 
 - **LLM engineering:** LLM APIs (Gemini, OpenAI), open-weight models (Qwen on LM Studio and Ollama), RAG and embeddings
   (Qdrant, BAAI/bge-m3), structured output with JSON Schema, prompt engineering, n8n
 - **AI-assisted development:** Claude Code with planner, executor and reviewer agents
 - **Backend:** Java, Spring Boot, JPA, Node.js, TypeScript, Python, FastAPI, REST APIs
+- **Mobile:** Kotlin with Jetpack Compose, Swift with SwiftUI
 - **Data and cloud:** PostgreSQL, AWS (Lambda, EventBridge), Docker, Terraform, CI/CD
 - **Quality and security:** JUnit, Mockito, Cypress, penetration-test-driven hardening
 
