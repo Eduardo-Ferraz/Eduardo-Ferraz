@@ -1,34 +1,52 @@
 # Hi, I'm Eduardo Ferraz 👋
 
-Full stack developer building with generative AI: LLMs in production, RAG and coding agents.
-Computer Science student at the Federal University of Espírito Santo (UFES), Brazil.
+**Software engineer building LLM applications (RAG, model serving and coding agents) on a backend foundation in
+Java, Node.js and Python.**
+Full stack engineer at Gama Ensino · Computer Science student at the Federal University of Espírito Santo (UFES), Brazil.
 
-## What I work on
+## What I build
 
-**LLMs in production.** At Gama Ensino, an education company, I build the AI features of the platform:
+**LLM features in production.** At Gama Ensino, an education company, I build the platform's AI features:
 
 - an essay-grading microservice that evaluates student essays against the ENEM rubric with the Gemini and ChatGPT APIs;
 - question generation with a locally hosted Qwen model and RAG (Qdrant + BAAI/bge-m3 embeddings), with no per-call API cost.
 
+**Serving open-weight models.** In a team project we built a gateway (Python, FastAPI, asyncio) in front of llama.cpp
+inference nodes: per-node queues, load balancing, failover, token streaming over SSE, and output constrained by a JSON
+Schema and validated again before it is released.
+
+**Measuring before trusting the model.** Structured output, validation in code and a human fallback. In my n8n triage
+demo all 8 answers were valid JSON, and a manual check still found 2 of them wrong; the README says so and names the next
+step, a labeled evaluation set.
+
 **Orchestrating coding agents.** I run Claude Code as a small team instead of a single assistant: one model plans the task
 and writes the guide, another model executes it, and a reviewer agent checks the result before anything is published.
 
-**Automation with local LLMs.** Workflows in which the model runs next to the data, behind an OpenAI-compatible API
-(LM Studio, Ollama), with structured JSON output and a human fallback when the answer cannot be trusted. See the n8n
-demo below.
+**Backend foundation.** Java/Spring Boot, Node.js/TypeScript and Python on PostgreSQL and AWS (Lambda, EventBridge): a
+monolith-to-microservices migration, dynamic JPA Specification filters, and security hardening after penetration tests
+(rate limiting, CSP, reCAPTCHA, JWT refresh tokens).
 
-**Full stack.** TypeScript, Node.js, React/Next.js, Java/Spring Boot and Python on PostgreSQL and AWS (Lambda, EventBridge),
-including a monolith-to-microservices migration and security hardening after penetration tests.
+**Leadership.** As Technology Director of CT Junior, a junior enterprise at UFES, I led 12 developers with 100% of
+deliveries on time.
+
+## Skills
+
+- **LLM engineering:** LLM APIs (Gemini, OpenAI), open-weight models (Qwen on LM Studio and Ollama), RAG and embeddings
+  (Qdrant, BAAI/bge-m3), structured output with JSON Schema, prompt engineering, n8n
+- **AI-assisted development:** Claude Code with planner, executor and reviewer agents
+- **Backend:** Java, Spring Boot, JPA, Node.js, TypeScript, Python, FastAPI, REST APIs
+- **Data and cloud:** PostgreSQL, AWS (Lambda, EventBridge), Docker, Terraform, CI/CD
+- **Quality and security:** JUnit, Mockito, Cypress, penetration-test-driven hardening
 
 ## Projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| [n8n-local-llm-support-triage](https://github.com/Eduardo-Ferraz/n8n-local-llm-support-triage) | Triage of food-delivery support messages with a local LLM: JSON-schema output, team and SLA from a routing table, human review when the answer does not validate. Measured run included. | n8n, LM Studio, Qwen |
-| [fhir-llm-gateway](https://github.com/Eduardo-Ferraz/fhir-llm-gateway) | **Design phase.** Gateway that turns free-text clinical notes into validated HL7 FHIR R4 records with open-weight LLMs on local infrastructure, so health data never leaves the institution. Team of three, Computer Networks course. | WebSocket, Ollama, Qwen |
-| [happy-paws-go](https://github.com/Eduardo-Ferraz/happy-paws-go) | Clickable prototype of a dog-walking marketplace, generated with Lovable from Software Engineering requirements and refined by the team. **[Live demo](https://happypawss.lovable.app)** | React, Vite, TypeScript |
-| [pagerank-search-engine](https://github.com/Eduardo-Ferraz/pagerank-search-engine) | Mini search engine: inverted index on a symbol table, PageRank with the power method and ranked queries. Team project. | C |
+| [fhir-llm-gateway](https://github.com/Eduardo-Ferraz/fhir-llm-gateway) | **Implemented; real-model measurements pending.** Distributed gateway that serves open-weight LLMs on local infrastructure, with per-node queues, three balancing policies, failover, token streaming (SSE) and JSON-Schema-validated output, to turn clinical notes into structured records without sending health data to a cloud API. Team of three, Computer Networks course. The code is in private team repositories; this one holds the design record. | Python, FastAPI, asyncio, llama.cpp |
+| [n8n-local-llm-support-triage](https://github.com/Eduardo-Ferraz/n8n-local-llm-support-triage) | Triage of food-delivery support messages with a local LLM: JSON-schema output, team and SLA from a routing table, human review when the answer does not validate. Includes a measured run and the 2 wrong answers a manual check found. | n8n, LM Studio, Qwen |
+| [pagerank-search-engine](https://github.com/Eduardo-Ferraz/pagerank-search-engine) | The retrieval fundamentals behind RAG: an inverted index on a symbol table, PageRank with the power method and ranked queries. Team project. | C |
 | [multithreaded-mini-kernel](https://github.com/Eduardo-Ferraz/multithreaded-mini-kernel) | Mini-kernel that schedules processes with pthreads: FCFS, Round Robin and preemptive priority, on one or two CPUs. Pair project. | C, pthreads |
+| [happy-paws-go](https://github.com/Eduardo-Ferraz/happy-paws-go) | Clickable prototype of a dog-walking marketplace, generated with Lovable from Software Engineering requirements and refined by the team. **[Live demo](https://happypawss.lovable.app)** | React, Vite, TypeScript |
 
 ## 💻 My Tech Stack
 
@@ -39,8 +57,12 @@ including a monolith-to-microservices migration and security hardening after pen
     <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" title="Spring" /></td>
     <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" /></td>
     <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" /></td>
+    <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" title="FastAPI" /></td>
     <!-- Database -->
     <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" /></td>
+    <!-- Cloud -->
+    <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" title="AWS" /></td>
+    <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker" /></td>
     <!-- APIs, DevOps & Tools -->
     <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" title="Postman" /></td>
     <td><img width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" /></td>
